@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "OCR V1.00",
+    "slug": "ocr-v1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codeskit.ocrv1",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.codeskit.ocrv1",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "apiBaseUrl": "http://192.168.31.232:5000",
+      "appVersionName": "1.0.0",
+      "appVersionCode": 1
+    }
+  }
+}
